@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "#nitro": [
+        "./src/runtime/index"
+      ],
+      "#nitro/*": [
+        "./src/runtime/*"
+      ],
+    },
+  }
+}
